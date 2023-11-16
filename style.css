@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#Home {
+    background-image: linear-gradient(rgba(36, 36, 36, 0.788), rgba(3, 3, 3, 0.795)), url("bg.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+#About {
+    background-color: rgb(16, 16, 16);
+    color: #fff;
+}
+
+footer {
+    background-color: rgb(16, 16, 16);
+    height: 400px;
+}
+
+.name {
+    margin-top: 300px;
+    font-size: 80px;
+}
+
+.section {
+    font-size: 35px;
+}
+
+#About,
+#Service {
+    min-height: 100vh;
+}
+
+.details {
+    margin-top: 60px;
+}
+
+.inform {
+    margin-bottom: 150px;
+}
+
+.bi {
+    margin-left: 100px;
+}
+
+.card {
+    height: 640px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(55px);
+    z-index: 100;
+}
+
+@media (max-width: 768px) {
+    .name {
+        margin-top: 150px;
+        font-size: 40px;
+    }
+
+    .section {
+        font-size: 20px;
+    }
+
+    .inform {
+        margin-bottom: 50px;
+    }
+
+    .bi {
+        margin-left: 0;
+    }
+
+    .navbar {
+        background-color: rgb(16, 16, 16);
+    }
+}
